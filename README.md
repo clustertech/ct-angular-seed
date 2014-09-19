@@ -1,4 +1,4 @@
-To set up dev environment
+##To set up dev environment
 
   1 Install node.js
 
@@ -13,29 +13,15 @@ To set up dev environment
 
   3 Install grunt command line
 
-    Grunt is a task-based command-line tool that speeds up workflows by reducing
-    the effort required to prepare assets for production. It does this by
-    wrapping up jobs into tasks that are compiled automatically as you go along.
-    Basically, you can use Grunt on most tasks that you consider to be grunt
-    work and would normally have to manually configure and run yourself.
+  Grunt is a task-based command-line tool that speeds up workflows by reducing the effort required to prepare assets for production. It does this by wrapping up jobs into tasks that are compiled automatically as you go along. Basically, you can use Grunt on most tasks that you consider to be grunt work and would normally have to manually configure and run yourself. [Link](http://gruntjs.com/)
 
-    Link: http://gruntjs.com/
-
-    gurnt-cli is the command line interface of grunt
-
-    Link: https://github.com/gruntjs/grunt-cli
+  gurnt-cli is the command line interface of grunt. [Link](https://github.com/gruntjs/grunt-cli)
 
     sudo npm install -g grunt-cli
 
   4 Install bower
 
-    Bower offers a generic, unopinionated solution to the problem of front-end
-    package management, while exposing the package dependency model via an API
-    that can be consumed by a more opinionated build stack. There are no system
-    wide dependencies, no dependencies are shared between different apps, and
-    the dependency tree is flat.
-
-    Link: https://github.com/bower/bower
+  Bower offers a generic, unopinionated solution to the problem of front-end package management, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack. There are no system wide dependencies, no dependencies are shared between different apps, and the dependency tree is flat. [Link](https://github.com/bower/bower)
 
     sudo npm install -g bower
 
@@ -43,23 +29,24 @@ To set up dev environment
 
     grunt bower
 
-To run with mock backend
+##To run with mock backend
 
   grunt dev
 
-To get deploy version
+##To get deploy version
 
   grunt deploy
 
 
-To run unit test
+##To run unit test
 
   grunt karma
 
-  Test coverage can be checked at ./coverage/index.html
--------------------------------------------------------------------------------
+Test coverage can be checked at ./coverage/index.html
 
-To set up e2e test environment
+---
+
+##To set up e2e test environment
 
   1 Install jdk
 
