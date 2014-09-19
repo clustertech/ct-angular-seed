@@ -31,16 +31,16 @@
 
 ##To run with mock backend
 
-  grunt dev
+    grunt dev
 
 ##To get deploy version
 
-  grunt deploy
+    grunt deploy
 
 
 ##To run unit test
 
-  grunt karma
+    grunt karma
 
 Test coverage can be checked at ./coverage/index.html
 
