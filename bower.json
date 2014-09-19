@@ -1,0 +1,16 @@
+{
+  "name": "App",
+  "description": "",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.15",
+    "angular-translate": "~2.1.0",
+    "angular-translate-loader-static-files": "~2.1.0",
+    "angular-resource": "~1.2.23",
+    "uri.js": "~1.13.2"
+  }
+}

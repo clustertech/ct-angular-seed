@@ -1,0 +1,7 @@
+bower_components/
+app/public/dist/
+app/public/lib/
+node_modules/
+coverage
+*.swp
+
